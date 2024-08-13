@@ -1,0 +1,2 @@
+# setSoundDeviceByName
+ワンクリックで規定のサウンドデバイスを変更するやつ。
