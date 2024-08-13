@@ -34,10 +34,10 @@
    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy RemoteSigned -File [setSoundDeviceByName.ps1までのファイルパス] "[変更したいサウンドデバイス名]"
    ```
 
-   例えば、.ps1スクリプトが`D:\Downloads\setSoundDeviceByName\setSoundDeviceByName.ps1`に保存されていて、`ヘッドセット イヤフォン`というサウンドデバイスに変更したい場合は、
+   例えば、.ps1スクリプトが`D:\Downloads\setSoundDeviceByName.ps1`に保存されていて、`ヘッドセット イヤフォン`というサウンドデバイスに変更したい場合は、
 
    ```
-   C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy RemoteSigned -File D:\Downloads\setSoundDeviceByName\setSoundDeviceByName.ps1 "ヘッドセット イヤフォン"
+   C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy RemoteSigned -File D:\Downloads\setSoundDeviceByName.ps1 "ヘッドセット イヤフォン"
    ```
 
    のようになります。
