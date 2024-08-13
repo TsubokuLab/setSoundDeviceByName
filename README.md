@@ -1,6 +1,7 @@
 # setSoundDeviceByName
 ショートカットで規定のサウンドデバイスを変更するやつ。  
-![gif](https://github.com/user-attachments/assets/aad8dbee-c92e-4096-a2be-4d740ba362bb)
+![gif](https://github.com/user-attachments/assets/aad8dbee-c92e-4096-a2be-4d740ba362bb)  
+https://x.com/kohack_v/status/1823214147317932210  
 
 ほとんど以下のサイトで紹介されているスクリプトがベースですが、使いやすくする為にサウンドデバイス名を入力する方式に調整しています。
 
