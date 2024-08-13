@@ -5,7 +5,7 @@
 
 ↓偉大な先人の知恵🙏
 
-> Windowsの音声出力先を変えるショートカット作成 - itiblog
+> Windowsの音声出力先を変えるショートカット作成 - itiblog  
 > https://itib.hatenablog.com/entry/2021121001
 
 
@@ -33,7 +33,7 @@
    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy RemoteSigned -File [setSoundDeviceByName.ps1までのファイルパス] "[変更したいサウンドデバイス名]"
    ```
 
-   例えば、.ps1スクリプトが`D\Downloads\setSoundDeviceByName\setSoundDeviceByName.ps1`に保存されていて、`ヘッドセット イヤフォン`というサウンドデバイスに変更したい場合は、
+   例えば、.ps1スクリプトが`D:\Downloads\setSoundDeviceByName\setSoundDeviceByName.ps1`に保存されていて、`ヘッドセット イヤフォン`というサウンドデバイスに変更したい場合は、
 
    ```
    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy RemoteSigned -File D:\Downloads\setSoundDeviceByName\setSoundDeviceByName.ps1 "ヘッドセット イヤフォン"
@@ -41,14 +41,14 @@
 
    のようになります。
 
-   ※ショートカットキー欄は、不要であれば空欄に設定して下さい。
-   ※ショートカット名やアイコンも適当なものに変更して下さい。
-   ※セキュリティの関係？でショートカットからの起動に失敗する為、先人ブログのものから起動オプションに`-ExecutionPolicy RemoteSigned`を追加しています。
+   ※ショートカットキー欄は、不要であれば空欄に設定して下さい。  
+   ※ショートカット名やアイコンも適当なものに変更して下さい。  
+   ※セキュリティの関係？でショートカットからの起動に失敗する為、先人ブログのものから起動オプションに`-ExecutionPolicy RemoteSigned`を追加しています。  
 
 6. ショートカットをタスクバーにドラッグアンドドロップするなりして登録
 
    ![image](https://github.com/user-attachments/assets/78bc5e62-d2c3-4f3b-a905-f31fe17d4e38)
-   ※サウンドデバイス名を変更した後はタスクバーに登録し直さないと何故か反映されないので注意
+   ※サウンドデバイス名を変更した後はタスクバーに登録し直さないと何故か反映されないので注意  
 
 7. ショートカットを実行して動作を確認
 
