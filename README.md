@@ -17,7 +17,7 @@ https://x.com/kohack_v/status/1823214147317932210
 1. #### Download ZIPするなりして、以下の2つのファイルを適当な場所に保存
 
    * setSoundDeviceByName.ps1
-   * ヘッドフォン切替ショートカットのサンプル.lnk
+   * Shortcut-Example.lnk
 
 
 2. #### タスクバーのサウンドアイコンを右クリックしてサウンドウィンドウを開く  
@@ -26,7 +26,7 @@ https://x.com/kohack_v/status/1823214147317932210
 3. #### サウンドの再生デバイス一覧から切り替えたいサウンドデバイスの名前をメモしておく  
    ![image](https://github.com/user-attachments/assets/7645c040-65fc-4dc6-89de-2781a07ed709)
 
-4. #### ヘッドフォン切り替えショートカットサンプルを右クリックしてプロパティを開く  
+4. #### Shortcut-Example.lnk(再生デバイス切り替えショートカットサンプル)を右クリックしてプロパティを開く  
    ![image](https://github.com/user-attachments/assets/c1e8b07a-ba36-487e-9506-bf2a41e875f6)
 
 5. #### プロパティのリンク先を以下のルールにそって変更
